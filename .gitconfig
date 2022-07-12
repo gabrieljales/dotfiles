@@ -1,0 +1,9 @@
+[user]
+	name = Gabriel_Jales
+	email = gabrielnascimentojaless@gmail.com
+[pager]
+	branch = false
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
