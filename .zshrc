@@ -1,5 +1,12 @@
 export ZSH="$HOME/.oh-my-zsh"
 
+# Zsh history
+export HISTFILE="$HOME/.zsh_history"
+export SAVEHIST=50000 # How many commands the history file can hold
+export HISTSIZE=$SAVEHIST # Number of commands loaded in shell memory
+setopt HIST_IGNORE_ALL_DUPS # Prevent duplicates from being saved in history
+setopt INC_APPEND_HISTORY # Write and read from history after each command execution
+
 ZSH_THEME="gabriel"
 
 plugins=(
