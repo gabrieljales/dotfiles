@@ -26,6 +26,10 @@ export MICRO_TRUECOLOR=1
 # Yarn
 export PATH="$PATH:$(yarn global bin)"
 
+# Fly.io
+export FLYCTL_INSTALL="/home/gabriel/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
+
 # Golang
 export GOPATH=$HOME/workspace/go
 export PATH=$PATH:$GOPATH/bin:/usr/local/go/bin
