@@ -26,10 +26,6 @@ export MICRO_TRUECOLOR=1
 # Yarn
 export PATH="$PATH:$(yarn global bin)"
 
-# Fly.io
-export FLYCTL_INSTALL="/home/gabriel/.fly"
-export PATH="$FLYCTL_INSTALL/bin:$PATH"
-
 # Golang
 export GOPATH=$HOME/workspace/go
 export PATH=$PATH:$GOPATH/bin:/usr/local/go/bin
@@ -46,10 +42,6 @@ export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
   exec tmux
 fi
-
-# Golang
-export GOPATH=$HOME/workspace/go
-export PATH=$PATH:$GOPATH/bin:/usr/local/go/bin
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
