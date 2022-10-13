@@ -5,3 +5,6 @@
 # .oh-my-zsh (except my personal theme)
 .oh-my-zsh/*
 !.oh-my-zsh/themes/gabriel.zsh-theme
+
+# Avoid recursion problems
+.dotfiles
