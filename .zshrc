@@ -38,6 +38,9 @@ eval "$(pyenv virtualenv-init -)"
 # Java
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 
+# Jmeter
+export PATH=$PATH:/opt/jmeter/bin
+
 # start with tmux
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
   exec tmux
